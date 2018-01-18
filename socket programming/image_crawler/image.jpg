@@ -1,0 +1,49 @@
+URL lautet: http://httpbin.org/ip 
+
+Domain Name Length: 11
+
+Hostname: httpbin.org
+Path: /ip
+ 
+Übergabestring lautet GET /ip HTTP/1.0
+HOST: httpbin.org
+
+domainURL: httpbin.org
+client: connecting to 2606:2800:220:1:248:1893:25c8:1946
+client: received from server 'HTTP/1.0 404 Not Found
+Content-Type: text/html
+Date: Sun, 12 Nov 2017 14:47:17 GMT
+Server: ECS (lga/13A0)
+Content-Length: 345
+Connection: close
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>404 - Not Found</title>
+	</head>
+	<body>
+		<h1>404 - Not Found</h1>
+	</body>
+</html>
+'
+
+HTTP Content: 
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>404 - Not Found</title>
+	</head>
+	<body>
+		<h1>404 - Not Found</h1>
+	</body>
+</html>
+
+
+Content-Length of HTTP: 345
+
